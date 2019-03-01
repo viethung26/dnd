@@ -1,0 +1,29 @@
+.todolist {
+    display: flex;
+}
+
+.list {
+    display: inline-block;
+    border: 1px black solid;
+    width: 200px;
+    height: 500px;
+    background: #888888;
+}
+.card {
+    background: #ffffff;
+    margin: 5px;
+    width: 190px;
+    height: 30px;
+    text-align: center;
+
+}
+.placeholder {
+    position: absolute;
+    display: none;
+    background: #ffffff;    
+    width: 190px;
+    height: 30px;
+    border: 2px dotted black;
+    font-style: italic;
+    text-align: center;
+}
